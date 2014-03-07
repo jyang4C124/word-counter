@@ -69,7 +69,7 @@ public class DistinctiveWordFinder {
 	 */
 	private void findDistinctive() {
         // TODO: initialize to words in primary counter
-        String words[] = null;
+        String words[] = primaryCounts.[];
 
         // This array will be used to sort the word scores;
         WordScore scores[] = new WordScore[words.length];
